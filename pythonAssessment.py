@@ -40,7 +40,7 @@ def identify_most_common_word(content):
   word_counts = {}
   for word in words_list:
     if word in word_counts:
-      word_counts[word] =+ 1
+      word_counts[word] += 1
     else:
       word_counts[word] = 1
   most_frequent_word = ""
